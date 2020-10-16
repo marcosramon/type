@@ -2,7 +2,7 @@
 layout: post
 published: true
 categories: blog
-image: /images/assets/etica2.PNG
+image: /assets/images/apresentacao.png
 title: Apostila Filosofia 3º ano (parte 1)
 excerpt: "Conteúdo de Filosofia para o 3º ano do Ensino Médio. Tema: ética"
 ---
