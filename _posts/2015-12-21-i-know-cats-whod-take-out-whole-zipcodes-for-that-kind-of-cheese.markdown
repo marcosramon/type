@@ -3,6 +3,7 @@ layout: post
 title: I know cats who'd take out whole zipcodes for that kind of cheese
 author: john
 tags: [frontpage, jekyll, blog]
+published: false
 image: '/images/posts/7.jpg'
 ---
 
