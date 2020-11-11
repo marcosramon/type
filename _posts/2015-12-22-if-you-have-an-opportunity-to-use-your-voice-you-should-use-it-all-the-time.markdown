@@ -2,6 +2,7 @@
 layout: post
 title: If you have an opportunity to use your voice you should use it all
 tags: [frontpage, jekyll, blog]
+published: false
 image: '/images/posts/7.jpg'
 ---
 
