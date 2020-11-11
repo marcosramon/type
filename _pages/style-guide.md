@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Style Guide
+published: false
 image: '/images/pages/styleguide.jpg'
 ---
 
