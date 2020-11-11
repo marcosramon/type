@@ -2,6 +2,7 @@
 layout: post
 title: I was not going to stand by and see another Marine die just to live
 tags: [frontpage, jekyll, blog]
+published: false
 image: '/images/posts/1.jpg'
 ---
 
