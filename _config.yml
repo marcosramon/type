@@ -9,7 +9,7 @@
 title:       Marcos Ramon
 email:       'contato@marcosramon.net'
 description: 'Textos e podcasts sobre filosofia, arte, tecnologia'
-baseurl:     '/'
+baseurl:     '/type'
 url:         'https://marcosramon.net/' # The base hostname & protocol for your site
 twitter:     'https://twitter.com/mrtollens'
 github:      ''
