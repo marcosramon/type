@@ -23,7 +23,7 @@ Olá, tudo bem? Nesse roteiro você vai encontrar os conteúdos de Filosofia tra
 
 Antes de entrar no assunto, vou me apresentar para você:
 
-<img src="/assets/images/apresentacao.png">
+<img src="https://github.com/marcosramon/marcosramon.net/blob/master/assets/images/apresentacao.jpg">
 
 Certo, agora vamos ao trabalho! O conteúdo de Filosofia no 3º ano aborda, nesse primeiro momento, a Ética. Essa é a área da Filosofia que aborda questões ligadas aos valores e ao campo específico da ação. Mas uma coisa importante para dizer desde já é que o estudo da ética, por si só, não torna ninguém ético. Afinal, se fosse assim, muitos problemas nossos seriam facilmente resolvidos. Colocaríamos as pessoas que praticam crimes, por exemplo, em uma sala de aula, ofertaríamos um curso de ética de 40h e pronto. Tudo resolvido. Mas, como eu disse antes, não é bem assim.
 
