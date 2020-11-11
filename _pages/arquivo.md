@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Arquivo
+permalink: /arquivo
 ---
 
 # Arquivo
