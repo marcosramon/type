@@ -1,212 +1,36 @@
-# Type: Minimal and Clean Free Jekyll Theme
+## O autor
 
-<img alt="Type: Minimal and Clean Free Jekyll Theme" src="https://user-images.githubusercontent.com/626005/63093493-c3daa880-bf65-11e9-860e-da88047cce24.png">
+Meu nome é Marcos Ramon. Nasci em São Luís, mas moro em Brasília desde 2010. Sou pesquisador, professor e podcaster, e pesquiso cibercultura, estética e cultura digital. Sou professor de Filosofia no Instituto Federal de Brasília, atuando também no Mestrado em Educação Profissional e Tecnológica.
+{: .message }
 
-- [Configurations](#configurations)
-- [Deployment](#deployment)
-- [Posts](#posts)
-- [Pages](#pages)
-- [Navigation](#navigation)
-- [Disqus Comments](#disqus-comments)
-- [Social Media Links](#social-media-links)
-- [Update favicon](#update-favicon)
+Sou Licenciado em Filosofia pela Universidade Federal do Maranhão (1999-2004), onde também concluí o Mestrado em Cultura e Sociedade (2009-2011). Fiz o Doutorado em Comunicação na Universidade de Brasília (2012-2014). 
 
-### Configurations
+Aqui segue o [link do meu currículo lattes](http://lattes.cnpq.br/9538072103558772) e do [Orcid](https://orcid.org/0000-0002-8720-8706). Quem tiver interesse em trocar ideias sobre a pesquisa é só mandar um [email](mailto:contato@marcosramon.net). 
 
-Type theme comes with different customizations in the `_config.yml` file:
+## O site
 
-```sh
-title:       Type
-email:       ''
-description: ''
-baseurl:     '' # The subpath of your site, e.g. /blog
-url:         '' # The base hostname & protocol for your site
-twitter:     ''
-github:      ''
-instagram:   ''
-facebook:    ''
+O que você pode encontrar aqui:
 
-markdown:  kramdown
-permalink: pretty
-paginate:  60
+ - [Blog](https://marcosramon.net/blog): <mark>textos</mark> sobre filosofia, arte, ensino e tecnologia.
+ - [Ficções](https://marcosramon.net/ficcoes): um <mark>podcast</mark> sobre filosofia e cotidiano.
+ - [Livros](https://marcosramon.net/livros): lista dos meus <mark>livros publicados</mark>.
+ - [Arquivo](https://marcosramon.net/archive): uma <mark>lista</mark> das publicações por mês e ano.
 
-sass:
-  style: compressed
+Outros links: 
 
-gems:
-  - jekyll-paginate
-  - jekyll/tagging
+ - [Filosofia](https://marcosramon.net/filosofia): vídeos, podcasts e textos sobre <mark>Filosofia</mark> no Ensino Médio.
+ - [Nintendo Blast](https://www.google.com/search?ei=1YvaXvuqFbay5OUPkOw1&q=marcos+ramon+site%3Anintendoblast.com.br&oq=marcos+ramon+site%3Anintendoblast.com.br&gs_lcp=CgZwc3ktYWIQA1DiFFjiFGCfGGgAcAB4AIAB1QGIAdUBkgEDMi0xmAEAoAECoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwi76cCBpOvpAhU2GbkGHRB2DQAQ4dUDCAw&uact=5): link para meus textos sobre <mark>videogames</mark> publicados no site Nintendo Blast.
+ 
+Escrevo e faço podcast por puro diletantismo. Leia e escute por sua conta e risco.
 
-include:
-  - _pages
+O template que utilizo nesse blog é uma versão customizada do tema [Poole](https://getpoole.com), criado por [Mark Otto](https://twitter.com/mdo).
 
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
+## Aviso de transparência
 
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+Todos os links utilizados nesse site que direcionam para a [Amazon](https://amzn.to/2WsZMV7) são links de associado. Se você comprar alguma coisa a partir desses links, você paga o mesmo preço que pagaria acessando diretamente. No entanto, eu ganho uma pequena comissão da Amazon pela compra feita via link vindo do meu site. Obrigado pelo apoio!
+             
+## Uso e compartilhamento
 
-# Pages path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
-```
-
-### Deployment
-
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` to start the Jekyll server.
-
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
-
-### Posts
-
-To create a new post, you can create a new markdown file inside the `_posts` directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
-
-The following is a post file with different configurations you can add as an example:
-
-```sh
----
-layout: post
-title: Welcome to Jekyll!
-featured: true
-tags: [frontpage, jekyll, blog]
-image: '/images/welcome.jpg'
----
-```
-
-You can set the author, featured or not, tags, and the post image.
-
-The `featured` key is to mark the post as a featured post, this will add a simple star icon (*) to the postcard.
-
-To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
-
-To create a draft post, create the post file under the **_drafts** directory, and you can find more information at [Working with Drafts](http://jekyllrb.com/docs/drafts/).
-
-For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
-
-Note that tags are not working with GitHub Pages, that's because the used [jekyll-tagging
-](https://github.com/pattex/jekyll-tagging) plugin is not [whitelisted](https://pages.github.com/versions/) by GitHub.
-
-To make this work, I use [Netlify.com](https://www.netlify.com/) for deployment.
-
-### Pages
-
-To create a new page, just create a new markdown file inside the `_pages` directory.
-
-The following is the `about.md` file that you can find as an example included in the theme with the configurations you can set.
-
-```sh
----
-layout: page
-title: About
-image: '/images/pages/about.jpeg'
----
-```
-
-Things you can change are: `title` and `image` path.
-
-
-### Navigation
-
-The navigation on the sidebar will automatically include all the links to the pages you have created.
-
-### Disqus Comments
-
-Open `_includes/disqus.html` file, and change the `aspirethemes-demos` value on line `12` with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
-
-```js
-s.src = '//aspirethemes-demo.disqus.com/embed.js';
-```
-
-So, if your Disqus shortname is `exampleone`, the final code above should be
-
-```js
-s.src = '//exampleone.disqus.com/embed.js';
-```
-
-That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
-
-And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
-
-### Social Media Links
-
-Social media links included in `_includes/footer.html` file.
-
-The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. The following is a list of the social media icons to use:
-
-Twitter
-
-```html
-<span data-icon='ei-sc-twitter' data-size='s'></span>
-```
-
-Facebook
-
-```html
-<span data-icon='ei-sc-facebook' data-size='s'></span>
-```
-
-Instagram
-
-```html
-<span data-icon='ei-sc-instagram' data-size='s'></span>
-```
-
-Pinterest
-
-```html
-<span data-icon='ei-sc-pinterest' data-size='s'></span>
-```
-
-Vimeo
-
-```html
-<span data-icon='ei-sc-vimeo' data-size='s'></span>
-```
-
-Google Plus
-
-```html
-<span data-icon='ei-sc-google-plus' data-size='s'></span>
-```
-
-SoundCloud
-
-```html
-<span data-icon='ei-sc-soundcloud' data-size='s'></span>
-```
-
-Tumblr
-
-```html
-<span data-icon='ei-sc-tumblr' data-size='s'></span>
-```
-
-Youtube
-
-```html
-<span data-icon='ei-sc-youtube' data-size='s'></span>
-```
-
-### Update favicon
-
-You can find the current favicon (favicon.ico) inside the theme root directory, just replace it with your new favicon.
-
-
-### Aspire Themes
-
-👉 Visit [**aspirethemes.com**](http://bit.ly/type-jekyll-github-link) for more Jekyll, Ghost, and WordPress themes.
-
-<img alt="Aspire Themes" src="https://user-images.githubusercontent.com/626005/63092640-afe17780-bf62-11e9-9ea9-546489bb282c.png">
-
----
-
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8G8PKPEADPD42&source=url">
-  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif">
-</a>
+Este é um site pessoal e eu autorizo o compartilhamento, a distribuição e a remixagem de tudo que tem aqui (exceto aquilo que não for de minha autoria, porque aí não depende de mim), desde que o propósito disso não envolva fins comerciais e desde que seja mencionada a fonte original. Mais informações sobre essa licença de uso nesse [link](http://creativecommons.org/licenses/by-nc-sa/3.0/br/).
+     
+[![creative commons](http://i.creativecommons.org/l/by-nc-sa/3.0/br/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/br/)
