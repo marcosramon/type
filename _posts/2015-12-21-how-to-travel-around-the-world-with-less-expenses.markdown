@@ -2,6 +2,7 @@
 layout: post
 title: How to travel around the world with less expenses
 tags: [frontpage, jekyll, blog]
+published: false
 image: '/images/posts/4.jpg'
 ---
 
