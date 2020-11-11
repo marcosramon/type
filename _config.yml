@@ -8,12 +8,12 @@
 # Site settings
 title:       Marcos Ramon
 email:       'contato@marcosramon.net'
-description: ''
+description: 'Textos e podcasts sobre filosofia, arte, tecnologia'
 baseurl:     '/'
 url:         'https://marcosramon.net/' # The base hostname & protocol for your site
 twitter:     'https://twitter.com/mrtollens'
 github:      ''
-instagram:   ''
+instagram:   'https://instagram.com/mrtollens'
 facebook:    ''
 
 markdown:  kramdown
