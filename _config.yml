@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:       Type
-email:       ''
+title:       Marcos Ramon
+email:       'contato@marcosramon.net'
 description: ''
-baseurl:     '/teste'
+baseurl:     '/'
 url:         'https://marcosramon.net/' # The base hostname & protocol for your site
 twitter:     'https://twitter.com/mrtollens'
 github:      ''
