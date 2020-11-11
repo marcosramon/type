@@ -2,6 +2,7 @@
 layout: post
 title: How can I trust a man who won't eat a good old-fashioned American
 tags: [frontpage, jekyll, blog]
+published: false
 image: '/images/posts/3.jpg'
 ---
 
