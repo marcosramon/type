@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page
 title: Arquivo
+permalink: /arquivo
 ---
-
-# Arquivo
 
 Publicações por mês e ano.
 
